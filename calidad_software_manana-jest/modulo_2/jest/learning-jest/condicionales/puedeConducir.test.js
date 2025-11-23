@@ -10,7 +10,7 @@ describe('puedeConducir', () => {
         expect(respuesta).toBe('No');
     });
     test('Sad path: edad negativa', () => {
-        expect(() => puedeConducir(-1)).toThrow('Edad inválida');
-        expect(() => puedeConducir('19')).toThrow('Edad inválida');
+        expect(() => puedeConducir(-1)).toThrow('Edad invalida');
+        expect(() => puedeConducir('19')).toThrow('Edad invalida');
     });
 });

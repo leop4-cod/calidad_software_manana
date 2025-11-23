@@ -4,7 +4,7 @@ describe('Crear Estudiante', () => {
     test('Happy path: 500 -> 6000', () => {
         expect(sueldoAnual(
             {
-                nombre: 'Juan',
+                nombre: 'Leo',
                 sueldoMensual: 500
             }
         )).toBe(6000);

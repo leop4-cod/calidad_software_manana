@@ -13,7 +13,7 @@ describe('Buscar Palabras', () => {
     });
     test('Sad path: ERROR',
         () => {
-            expect(() => buscarPalabra(null, 'jest')).toThrow('frase invalido');
-            expect(() => buscarPalabra('', 344)).toThrow('frase invalido');
+            expect(() => buscarPalabra(null, 'jest')).toThrow('frase invalida');
+            expect(() => buscarPalabra('', 344)).toThrow('frase invalida');
         });
 });

@@ -4,7 +4,7 @@ function buscarPalabra(frase, palabra) {
         || !typeof frase == 'string'
         || !typeof palabra == 'string'
     ) {
-        throw new TypeError("frase invalido");
+        throw new TypeError("frase invalida");
     }
     return frase.includes(palabra);
 }

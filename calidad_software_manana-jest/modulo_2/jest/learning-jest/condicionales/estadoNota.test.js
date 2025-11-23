@@ -9,9 +9,9 @@ describe('estadoNota', ()=>{
         expect(estadoNota(2)).toBe('Reprobado'); 
     });
     
-    test('Sad path: nota inválida', () => {
-        expect(()=>estadoNota(-1)).toThrow('nota inválida'); 
-        expect(()=>estadoNota('10')).toThrow('nota inválida'); 
-        expect(()=>estadoNota(50)).toThrow('nota inválida'); 
+    test('Sad path: nota invalida', () => {
+        expect(()=>estadoNota(-1)).toThrow('nota invalida'); 
+        expect(()=>estadoNota('10')).toThrow('nota invalida'); 
+        expect(()=>estadoNota(50)).toThrow('nota invalida'); 
     }); 
 });

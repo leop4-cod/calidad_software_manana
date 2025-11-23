@@ -4,7 +4,7 @@ function estadoNota(nota){
         || nota >10
         || nota < 0
         ) {
-            throw new TypeError("nota inválida");
+            throw new TypeError("nota invalida");
         }
         
     if (nota>=7) return 'Aprobado';
